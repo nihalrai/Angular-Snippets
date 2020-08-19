@@ -8,6 +8,9 @@ import { HttpClientModule } from '@angular/common/http';
 import {TodoComponent} from './todo.component';
 import { PnrComponent } from './pnr/pnr.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { ViewCarpartsComponent } from './view-carparts/view-carparts.component';
+import { CarpartsComponent } from './carparts/carparts.component';
+import { AddCarpartComponent } from './add-carpart/add-carpart.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { AddProductComponent } from './add-product/add-product.component';
     WeatherComponent,
     TodoComponent,
     PnrComponent,
-    AddProductComponent
+    AddProductComponent,
+    ViewCarpartsComponent,
+    CarpartsComponent,
+    AddCarpartComponent
   ],
   imports: [
     BrowserModule,

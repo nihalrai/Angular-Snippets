@@ -12,10 +12,11 @@ import { Component } from '@angular/core';
     </div>
     <weather></weather>   
       <todo></todo>  
-      <app-pnr></app-pnr>
-      <product></product>   -->
-      <app-add-product></app-add-product>
-      
+      <app-pnr></app-pnr>-->
+      <product></product>   
+      <!--<app-add-product></app-add-product> -->
+      <app-view-carparts></app-view-carparts>
+      <app-add-carpart></app-add-carpart>
   `,
   styles: [`
       #left{
